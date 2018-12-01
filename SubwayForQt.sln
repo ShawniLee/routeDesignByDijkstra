@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SubwayForQt", "SubwayForQt\SubwayForQt.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3", "..\Project3\Project3\Project3.vcxproj", "{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtGuiApplication1", "..\QtGuiApplication1\QtGuiApplication1\QtGuiApplication1.vcxproj", "{C2A065AB-3F7F-4256-A97F-9BBBE4A1452E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.Build.0 = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x86.ActiveCfg = Debug|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.Build.0 = Release|x64
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x86.ActiveCfg = Release|x64
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Debug|x64.ActiveCfg = Debug|x64
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Debug|x64.Build.0 = Debug|x64
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Debug|x86.ActiveCfg = Debug|Win32
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Debug|x86.Build.0 = Debug|Win32
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Release|x64.ActiveCfg = Release|x64
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Release|x64.Build.0 = Release|x64
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Release|x86.ActiveCfg = Release|Win32
+		{198ACB21-49AB-42DC-A8CE-1F6AB4BCFF56}.Release|x86.Build.0 = Release|Win32
+		{C2A065AB-3F7F-4256-A97F-9BBBE4A1452E}.Debug|x64.ActiveCfg = Debug|x64
+		{C2A065AB-3F7F-4256-A97F-9BBBE4A1452E}.Debug|x64.Build.0 = Debug|x64
+		{C2A065AB-3F7F-4256-A97F-9BBBE4A1452E}.Debug|x86.ActiveCfg = Debug|x64
+		{C2A065AB-3F7F-4256-A97F-9BBBE4A1452E}.Release|x64.ActiveCfg = Release|x64
+		{C2A065AB-3F7F-4256-A97F-9BBBE4A1452E}.Release|x64.Build.0 = Release|x64
+		{C2A065AB-3F7F-4256-A97F-9BBBE4A1452E}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DAD4F44-AA39-46AF-811D-901E745E512E}
+	EndGlobalSection
+EndGlobal
