@@ -14,7 +14,9 @@ SubwayForQt::SubwayForQt(QWidget *parent)
 	connect(ui.spendButton,&QPushButton::clicked,this,&SubwayForQt::spendMoney);
 	connect(ui.close, &QPushButton::clicked,this,&SubwayForQt::justClose);
 	readData();
-
+	bg = new QButtonGroup(this);
+	bg->addButton(ui.PathRadio, false);//一个值为0
+	bg->addButton(ui.TranRadio, true);//一个值为1
 	this->setWindowIcon(QIcon("subway.png"));
 	//this->setAttribute(Qt::WA_TranslucentBackground, true);
 	this->setWindowFlags(Qt::FramelessWindowHint);//去掉标题栏
@@ -222,6 +224,7 @@ int SubwayForQt::CalCost(float distance) {
 }
 int SubwayForQt::spendMoney()
 {
+	bool Radiocheck = bg->checkedId();
 	// 新建图,读入数据
 	Graph M=G;
 	string start, end;
@@ -257,7 +260,10 @@ int SubwayForQt::spendMoney()
 			}
 		}
 		anotherPath.clear();
-		M.getAnotherPath(start, end);
+		if (Radiocheck)
+		{
+			M.getAnotherPath(start, end);
+		}
 		anotherPath.push_back(M);
 		int min_inx = 0, min = 9999;
 		for (int i = 0; i < anotherPath.size(); i++)

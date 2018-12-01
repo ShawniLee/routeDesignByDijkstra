@@ -69,7 +69,7 @@
     <QtMoc>
       <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
       <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
-      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtUiTools;$(QTDIR)\include\QtWebSockets;$(QTDIR)\include\QtQml;%(AdditionalIncludeDirectories)</IncludePath>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtUiTools;$(QTDIR)\include\QtWebSockets;$(QTDIR)\include\QtQml;$(QTDIR)\include\QtWebEngineWidgets;%(AdditionalIncludeDirectories)</IncludePath>
       <Define>UNICODE;_UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_UITOOLS_LIB;QT_WEBSOCKETS_LIB;QT_QML_LIB;%(PreprocessorDefinitions)</Define>
       <QTDIR>$(QTDIR)</QTDIR>
     </QtMoc>
@@ -127,7 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="SubwayForQt.h">
-      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include;.\GeneratedFiles\$(ConfigurationName);D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtCore;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtGui;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtANGLE;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtWidgets;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtUiTools;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtWebSockets;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtQml;%(AdditionalIncludeDirectories)</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(QTDIR)\include\QtUiTools;$(QTDIR)\include\QtWebSockets;$(QTDIR)\include\QtQml;%(AdditionalIncludeDirectories)</IncludePath>
       <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles;.;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include;.\GeneratedFiles\$(ConfigurationName);D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtCore;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtGui;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtANGLE;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtWidgets;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtUiTools;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtWebSockets;D:\File\Qt5.11.1\5.11.1\msvc2017_64\include\QtQml;%(AdditionalIncludeDirectories)</IncludePath>
     </QtMoc>
   </ItemGroup>

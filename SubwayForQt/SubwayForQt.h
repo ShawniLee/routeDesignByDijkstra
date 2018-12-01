@@ -4,6 +4,7 @@
 #include "ui_SubwayForQt.h"
 #include"Graph.h"
 #include<QMessageBox>
+#include <QButtonGroup>
 class SubwayForQt : public QMainWindow
 {
 	Q_OBJECT
@@ -12,6 +13,7 @@ public:
 	SubwayForQt(QWidget *parent = Q_NULLPTR);
 	int spendMoney();
 	int CalCost(float distance);
+	QButtonGroup *bg;
 	vector<string> static split(const string &str, const string &pattern);
 	float static Dijkstra(Graph & G, string startName, string endName);
 	void readData();

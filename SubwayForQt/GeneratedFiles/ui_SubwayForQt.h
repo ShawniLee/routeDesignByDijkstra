@@ -15,6 +15,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QWidget>
 
@@ -36,6 +37,8 @@ public:
     QTextBrowser *path2;
     QLabel *label_2;
     QPushButton *close;
+    QRadioButton *PathRadio;
+    QRadioButton *TranRadio;
 
     void setupUi(QMainWindow *SubwayForQtClass)
     {
@@ -221,6 +224,14 @@ public:
         close->setObjectName(QStringLiteral("close"));
         close->setGeometry(QRect(220, 260, 93, 28));
         close->setStyleSheet(QStringLiteral("QPushButton{ font-family:'Microsoft YaHei';font-size:14px;color:#666666;}"));
+        PathRadio = new QRadioButton(centralWidget);
+        PathRadio->setObjectName(QStringLiteral("PathRadio"));
+        PathRadio->setGeometry(QRect(390, 360, 115, 19));
+        PathRadio->setStyleSheet(QStringLiteral("color:white;font-size:20px;"));
+        TranRadio = new QRadioButton(centralWidget);
+        TranRadio->setObjectName(QStringLiteral("TranRadio"));
+        TranRadio->setGeometry(QRect(560, 360, 115, 19));
+        TranRadio->setStyleSheet(QStringLiteral("color:white;font-size:20px;"));
         SubwayForQtClass->setCentralWidget(centralWidget);
 
         retranslateUi(SubwayForQtClass);
@@ -239,6 +250,8 @@ public:
         label->setText(QApplication::translate("SubwayForQtClass", "\350\257\246\347\273\206\350\267\257\347\272\277\357\274\232", nullptr));
         label_2->setText(QApplication::translate("SubwayForQtClass", "\346\234\200\345\260\217\346\215\242\344\271\230\357\274\232", nullptr));
         close->setText(QApplication::translate("SubwayForQtClass", "\345\205\263\351\227\255", nullptr));
+        PathRadio->setText(QApplication::translate("SubwayForQtClass", "\346\234\200\347\237\255\350\267\257\345\276\204", nullptr));
+        TranRadio->setText(QApplication::translate("SubwayForQtClass", "\346\234\200\345\260\217\346\215\242\344\271\230", nullptr));
     } // retranslateUi
 
 };

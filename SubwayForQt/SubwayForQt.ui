@@ -1045,6 +1045,38 @@ font-family:'Microsoft YaHei'</string>
      <string>关闭</string>
     </property>
    </widget>
+   <widget class="QRadioButton" name="PathRadio">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>360</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;font-size:20px;</string>
+    </property>
+    <property name="text">
+     <string>最短路径</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="TranRadio">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>360</y>
+      <width>115</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;font-size:20px;</string>
+    </property>
+    <property name="text">
+     <string>最小换乘</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
