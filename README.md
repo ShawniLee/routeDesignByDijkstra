@@ -10,6 +10,8 @@ MATLAB：matlab2016b
 
 Mysql: Navicat 12 + Mysql8.0
 
+MFC:VS 2017+ MFC
+
 具体QT安装内容选择可参照
 
 https://blog.csdn.net/qq_23473839/article/details/80523318
