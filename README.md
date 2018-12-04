@@ -2,7 +2,7 @@
 
 北京地铁线路规划软件（Dijkstra实现）
 
-#程序运行环境等说明
+# 程序运行环境等说明
 
 VS2017+QT5.11.1+QT visual studio Tool
 
